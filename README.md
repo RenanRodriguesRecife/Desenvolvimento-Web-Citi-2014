@@ -37,3 +37,22 @@ HTML - É uma linguagem de descrição
     <title>Desenvolvimento Web Client-side</title>
 </head>
 ```
+
+Boas práticas de programação: Deve identar (Não obrigatório para não perder)
+
+```html
+<html><!--tag principal: abre e fecha o programa-->
+    <!--meta: informações que não são visíveis ao usuário-->    
+    <head>
+        <title>Minha Primeira Página HTML!!!</title><!--titulo-->
+    </head>
+    <!--body: tudo que vai aparecer para o usuário-->
+    <body>
+        <p>Essa é a primeira página HTML!!!</p><!--parágrafo-->
+        <!--acéntos: caracteres especiais para a codificação UTF-8(sem bom)&a grave (não usado na prática)-->
+    </body>
+</html>
+```
+
+
+    
