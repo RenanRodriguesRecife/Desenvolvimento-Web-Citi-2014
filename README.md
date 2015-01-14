@@ -54,5 +54,8 @@ Boas práticas de programação: Deve identar (Não obrigatório para não perde
 </html>
 ```
 
+OBS: Em alguns nagegadores são formatados para aceitar a lingua sem acento (Ingles)
+formate no notepad++ (UTF-8)(codificação)
 
-    
+Principais tags
+<meta name="Description" content="Conteúdo da Página"><!-- Descrição da página: Inportante para página de buscas -->
