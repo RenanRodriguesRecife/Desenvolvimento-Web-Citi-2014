@@ -58,6 +58,7 @@ OBS: Em alguns nagegadores são formatados para aceitar a lingua sem acento (Ing
 formate no notepad++ (UTF-8)(codificação)
 
 Principais tags
+
 ```html
 <meta name="Description" content="Conteúdo da Página"><!-- Descrição da página: Inportante para página de buscas -->
 
