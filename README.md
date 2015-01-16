@@ -66,7 +66,7 @@ Boas práticas de programação: Deve identar (Não obrigatório para não perde
 OBS: Em alguns nagegadores são formatados para aceitar a lingua sem acento (Ingles)
 formate no notepad++ (UTF-8)(codificação)
 
-Principais tags
+## Principais tags
 
 ```html
 <meta name="Description" content="Conteúdo da Página"><!-- Descrição da página: Inportante para página de buscas -->
@@ -74,7 +74,8 @@ Principais tags
 <!--- Plavra chave da página (rankeada em sites de busca)-->
 ```
 
-tags body
+### tags body
+
 ```html
 - <p></p><!--parágrafo-->
 - <br/><!--Quebra de linhas-->
@@ -85,7 +86,7 @@ tags body
 - <u><!-- sublinhado-->
 ```
 
-Imagem tag - (Adicionar uma imagem)
+### Imagem tag - (Adicionar uma imagem)
 
 ```html
 <img src="..." alt="...">
@@ -96,7 +97,7 @@ jpg - Não aceita fundo transparente (funciona melhor com imagens com tons cont�
 
 gif - Aceita fundo transparente
 
-Link tag - (Adiciona um Link)
+### Link tag - (Adiciona um Link)
 
 ```html
 <a href="link para alguma página" target="_blank" title="texto que aparece na caixa amarela quando passa o mouse">Nome do Link</a>
