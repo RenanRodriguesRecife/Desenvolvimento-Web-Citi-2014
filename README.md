@@ -70,5 +70,35 @@ Principais tags
 
 ```html
 <meta name="Description" content="Conteúdo da Página"><!-- Descrição da página: Inportante para página de buscas -->
+<meta name="kayWords" content="palavra-chave da página">
+<!--- Plavra chave da página (rankeada em sites de busca)-->
+```
 
+tags body
+```html
+- <p></p><!--parágrafo-->
+- <br/><!--Quebra de linhas-->
+- <hr/><!--Quebra a linha e adiciona uma linha-->
+- <h1><!--tamanho da fonte pode variar 1 (maior)... 7(menor)...-->
+- <i><!--  Itálico-->
+- <b><!-- negrito-->
+- <u><!-- sublinhado-->
+```
+
+Imagem tag - (Adicionar uma imagem)
+
+```html
+<img src="..." alt="...">
+<!--alt - para aparecer um texto ao invés do ícone corrompido, caso a imagem não apareça-->
+```
+
+jpg - Não aceita fundo transparente (funciona melhor com imagens com tons contínuos de cores)
+
+gif - Aceita fundo transparente
+
+Link tag - (Adiciona um Link)
+
+```html
+<a href="link para alguma página" target="_blank" title="texto que aparece na caixa amarela quando passa o mouse">Nome do Link</a>
+<!--Target: Para abrir uma nova aba-->
 ```
