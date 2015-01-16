@@ -1,9 +1,12 @@
 # Desenvolvimento Web (Citi)
 
+<table>
+    <tr><th>sites</th><tr>
+    <tr><td>www.codeacademy.com</td></tr>
+    <tr><td>www.w3schools.com (tags)</td></tr>
+    <tr><td>leapforce.com - emprego: avalia páginas</td></tr>
+</table>
 
-www.codeacademy.com
-www.w3schools.com (tags)
-leapforce.com - emprego: avalia páginas
 
 
 O desenvolvimento web é baseado no conceito MVC (Qual o programa é dividido em três camadas de desenvolvimento):
