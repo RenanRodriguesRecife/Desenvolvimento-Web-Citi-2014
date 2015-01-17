@@ -103,3 +103,21 @@ gif - Aceita fundo transparente
 <a href="link para alguma página" target="_blank" title="texto que aparece na caixa amarela quando passa o mouse">Nome do Link</a>
 <!--Target: Para abrir uma nova aba-->
 ```
+
+### Listas Ordenadas
+
+```html
+<ol>
+    <li></li>
+    <li></li>
+</ol>
+```
+
+### Listas não Ordenadas
+
+```html
+<ul>
+    <li></li>
+    <li></li>
+</ul>
+```
