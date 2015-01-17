@@ -106,6 +106,7 @@ gif - Aceita fundo transparente
 
 ### Listas Ordenadas
 
+- numerada
 ```html
 <ol>
     <li></li>
@@ -115,6 +116,7 @@ gif - Aceita fundo transparente
 
 ### Listas não Ordenadas
 
+- pontos
 ```html
 <ul>
     <li></li>
