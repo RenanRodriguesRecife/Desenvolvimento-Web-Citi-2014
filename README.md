@@ -123,3 +123,47 @@ gif - Aceita fundo transparente
     <li></li>
 </ul>
 ```
+### Tabelas
+
+```html
+<table></table>
+
+<th></th>(titulo)
+
+<tfoot></tfoot> <tbody></tbody> <thead></thead>
+
+<tr></tr>(linhas)
+
+<td></td>(colunas)
+```
+
+### Formulário
+
+Form
+```html
+<form method="GET" action="#"><!--action="#" - chama na página -->
+    <fieldset>
+        <legend>formulário de teste</legend>
+        <label for="campo-nome">Nome</label>
+        <input type="text">
+        <input type="submit" value="cadastrar"/>
+        <input type="reset" value="limpar campos">
+    </fieldset>
+</form>
+```
+
+GET -> Passa os dados para URL
+
+POST -> Não passa os dados para URL. É mais lenta mas é mais segura
+
+```html
+<fieldset>
+    <legend>testando os inputs</legend>
+    <label for="campo-senha">senha</label>
+    <input type="password" name="senha" id="campo-senha"/>
+    <label for="campo-teste1">Teste 1</label>
+    <input type="radio" name="teste" id="campo-teste1">
+
+</fieldset>
+
+```
