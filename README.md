@@ -175,7 +175,14 @@ POST -> Não passa os dados para URL. É mais lenta mas é mais segura
 
     <br><br>
 
-    
+    <table for="campo-select">Seletor Grego</label>
+    <select id="campo-select" name="seltor">
+        <option value="1">Alpha</option>
+        <option value="2">Beta</option>
+    </select>
 </fieldset>
+    <input type="submit" value="cadastrar"/>
+    <input type="reset" value="limpar campos"/>
+</form>
 
 ```
