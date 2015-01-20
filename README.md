@@ -232,3 +232,32 @@ Frame - referencia outra página html
     Recife - PE, 50740-560
 <address>
 ```
+
+=================================
+
+# CSS (Folhas de estilos em cascatas)
+
+### Seletores e Propriedades
+
+```html
+<style type="text/css">
+    p{
+    background-color:green;
+    color:red;
+}
+</style>
+
+```
+
+
+```css
+#RRGGBB(Hexadecimal)
+rgb(255,255,255)
+
+```
+
+- Lorem Ipsum - testo que os desingers usam para formatar páginas
+
+- (site) - Color Blander (seleciona cores que conbinam)
+
+- (site) - Color Picker (Pega qualquer cor da tela)
