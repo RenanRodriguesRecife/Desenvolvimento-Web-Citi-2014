@@ -217,3 +217,18 @@ Frame - referencia outra página html
 <!--src - referencia outra página pelo endereço-->
 
 ```
+
+### Fazer um mapa de links
+
+```html
+<img src="imagens/nuvem2.jpg" usemap="#meumapa">
+<map name="meumapa">
+    <area shape cord="" href="link" target="_blank">
+</map>
+<address>
+    Cin-UFPE<br>
+    Av. Jorn. Aníbal Fernandes<br>
+    s/n - Cidade Universitária<br>
+    Recife - PE, 50740-560
+<address>
+```
