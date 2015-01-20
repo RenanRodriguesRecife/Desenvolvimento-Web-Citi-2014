@@ -186,3 +186,34 @@ POST -> Não passa os dados para URL. É mais lenta mas é mais segura
 </form>
 
 ```
+
+### Frameset
+
+Frameset é usado para dividir a tela em páginas independentes.
+
+```html
+<frameset row="50%","*,*"><!--row - linha--><!--*,* - dividir no mesmo tamanho -->
+<!--caso não suporte o frameset-->
+<noframeset>
+    <body>
+        Desculpe seu navegador não suporta
+    </body>
+</noframeset>
+```
+
+```html
+<frameset cols="*,*"><!--cols - colunas -->
+```
+
+Frame - referencia outra página html
+```html
+<iframe></iframe>
+```
+
+```html
+
+<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+</iframe>
+<!--src - referencia outra página pelo endereço-->
+
+```
