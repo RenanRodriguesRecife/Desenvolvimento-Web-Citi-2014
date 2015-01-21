@@ -261,3 +261,12 @@ rgb(255,255,255)
 - (site) - Color Blander (seleciona cores que conbinam)
 
 - (site) - Color Picker (Pega qualquer cor da tela)
+
+
+Não é aconselhavel escrever o código CSS junto com o código HTML.
+
+-  Você deve resferenciar um arquivo CSS no código HTML até porque um código HTML pode ter várias formatações CSS.
+
+```html
+<link rel="stylesheet" href="style.css" type="text/css">
+```
