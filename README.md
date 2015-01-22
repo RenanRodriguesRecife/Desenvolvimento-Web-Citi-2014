@@ -270,3 +270,85 @@ Não é aconselhavel escrever o código CSS junto com o código HTML.
 ```html
 <link rel="stylesheet" href="style.css" type="text/css">
 ```
+
+Agora você deve colocar os pedaços de código HTML entre 
+```html
+<div></div>
+```
+
+### Comentários CSS
+
+Antes de escrever qualquer código CSS você precisa dá o reset no CSS. Isso é para corrigir alguns bugs do HTML e CSS.
+
+```css
+/*Resolve o bug da margem */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    vertical-align: boaseline;
+}
+
+/*Resolve o bug do float*/
+
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+*html .clearfix {zoom: 1;}/*IE6*/
+*:firt-child + html .clearfix {zoom:1;} /*IE7*/
+
+```
+
+## Regra de Hierarquia
+
+Na linha de programação quem estiver em baixo sobrepõe.
+
+### Seletores
+
+```
+* -> tudo
+
+tag -> Seletor de tags Ex: p div
+
+# -> seletores de id            id - algo exclusivo
+
+. -> expecifica a classe        class - não exclusivo
+
+E F -> Qualquer nível de hierarquia
+
+E>F -> Imediatamente dentro
+
+E + F -> Depois
+
+E[att=val]
+
+```
+
+#### Seletores específicos para link
+
+```
+#linkteste:link -> ainda não foi visitado
+
+#linkteste:visited -> já foi visitado
+
+#linkteste:actived -> se já ativado
+
+#linkteste:hoveu{
+
+}
+
+Só tem essa propriedade no CSS3
+
+@font-face{
+    font-family:DroidSans
+    src:url("fonts/BrunbollFet.ttf");
+}
+
+```
