@@ -408,3 +408,31 @@ height
 Posicinamento absoluto
 
 Posicionamento relativo (É recomendado usar o posicionamento relativo)
+
+Para centralizar uma div na tela: você pode fazer uma pequena gambiarra, usa a margem relativa.
+
+1: Centralizar
+    left: 50%;
+
+voltar a margem negativa 50% do comprimento do elemento
+
+Profundidade
+    z-index
+
+    (modal e visibility hidden (carrossel)) Jquery
+
+Cursor: (altera a imagem da seta do mouse que fica encima de um conteúdo)
+
+Float(Controla o empilhamento da div)
+    display: linear ou block
+    float: left, right          obs: (não tem align)
+    shadow: Sombra
+
+OBS: O site bootstrap tem vários códigos prémoldados em JQuery para construir um site
+
+```
+hospedagem do site
+servidor do dialhost 
+amazon - servidor em branco
+deve cobrar ao cliente uma mensalidade para manutenção (Hospedagem no servidor)
+```
