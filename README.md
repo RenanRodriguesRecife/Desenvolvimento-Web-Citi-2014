@@ -366,3 +366,45 @@ Só tem essa propriedade no CSS3
    text-transform: copitalize;
 */
 ```
+
+What the font (site) - MyFont ou GoogleFonts, você joga a imagem da fonte e ele diz mais ou menos a fonte que você quer
+
+##### Seletores especiais para fontes
+
+```css
+:first-line{
+
+}
+
+:first-letter{
+    font-size: 200%;
+}
+
+list-style-image
+list-style-position
+list-style-type
+```
+
+margem - é o que fica fora da div
+
+padding - é o deslocamento do próprio conteúdo da div
+
+### Border
+
+```css
+
+border-style:|none|dotted|dashed|solid|double|grove(uma borda com degradê)|ridge|inset|outset
+
+border-with
+
+border-color
+```
+
+## Posicionamento:
+
+width:
+height
+
+Posicinamento absoluto
+
+Posicionamento relativo (É recomendado usar o posicionamento relativo)
