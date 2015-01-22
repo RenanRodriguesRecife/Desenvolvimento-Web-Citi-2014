@@ -343,12 +343,26 @@ E[att=val]
 #linkteste:hoveu{
 
 }
+```
+
+#### Adicionar fonte
 
 Só tem essa propriedade no CSS3
+```css
 
 @font-face{
     font-family:DroidSans
     src:url("fonts/BrunbollFet.ttf");
 }
 
+.pd{
+    font-family: Arial;
+    font-size: 150%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* text-decoration: underline;
+   text-transform: copitalize;
+*/
 ```
