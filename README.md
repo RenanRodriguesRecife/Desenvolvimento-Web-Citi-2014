@@ -449,3 +449,28 @@ O JQuery feito sobre java-script é orientada a eventos
 </script>
 ```
 
+html estruturado - document.write
+                (objeto) (método)
+
+Não precisa declarar o tipo da variável (Ela é dinâmicamente tipada)
+
+Você pode dividir o código javascript em pedaços pelo código HTML.
+
+#### Declarando variáveis
+
+```html
+<script lenguage="javascript">
+    var x;
+    var y;
+    document.write(soma(x,y));
+
+```
+
+Obs: geralmente um loop em javascript vai dar erro no navegador.
+
+#### Tipo de dados
+
+- Numeros - float, int, double
+- String
+- Booleanos
+- Nulos
