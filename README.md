@@ -474,3 +474,30 @@ Obs: geralmente um loop em javascript vai dar erro no navegador.
 - String
 - Booleanos
 - Nulos
+
+#### Referenciar um arquivo
+
+```html
+<script lenguage="javascript" src="function.js"></script>
+
+```
+
+ Propriedades de document
+
+- bgColor - cor de fundo
+
+- title - título do programa
+
+- fgColor - cor da letra
+
+- getElementById -> Acessa o primeiro elemento com uma id específica
+
+========================
+
+JQuery
+
+    Bootstrap (site) tem muito códigos JQueyry pronto
+
+    DOM - class document
+
+    AJAX - banco de dados
