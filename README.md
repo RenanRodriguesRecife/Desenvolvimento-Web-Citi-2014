@@ -436,3 +436,16 @@ servidor do dialhost
 amazon - servidor em branco
 deve cobrar ao cliente uma mensalidade para manutenção (Hospedagem no servidor)
 ```
+
+## Javascript 
+
+Javascript não é muito útil pois você precisa fazer muitos laços para realizar uma aplicação
+
+O JQuery feito sobre java-script é orientada a eventos
+
+```html
+<script lenguage="javascript">
+    alert("Bom Dia!"); /*Imprime um alerta*/
+</script>
+```
+
