@@ -494,10 +494,31 @@ Obs: geralmente um loop em javascript vai dar erro no navegador.
 
 ========================
 
-JQuery
+### JQuery
 
     Bootstrap (site) tem muito códigos JQueyry pronto
 
     DOM - class document
 
     AJAX - banco de dados
+
+
+#### Instalar o JQuery:
+
+    Você pode instalar online pelo GOOGLE Hosted Libraries adicionando a linha:
+
+    ```html
+    <script src="//ajax.googlepis.com/ajax/libs/jquery/1.11.0/JQUERY.MIN.JS"></script>
+    ```
+
+    ou você pode instalar diretamente no servidor (Que é muito mais seguro mas consume espaço e processamento)
+
+#### Funcionamento
+
+```jquery
+$(document).ready(function(){
+    Linhas de código
+    ...
+});
+```
+
