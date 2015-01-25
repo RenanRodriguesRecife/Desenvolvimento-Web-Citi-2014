@@ -535,4 +535,8 @@ $('div').children('p').addClass('div2')
     Seletores               
 ```
 
-#### Seletores de Co
+#### Seletores de Contexto
+
+Procura todos os elementos que tem determinado texto dentro dele
+
+
