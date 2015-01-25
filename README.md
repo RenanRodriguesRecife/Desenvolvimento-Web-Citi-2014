@@ -539,4 +539,50 @@ $('div').children('p').addClass('div2')
 
 Procura todos os elementos que tem determinado texto dentro dele
 
+$('p',$('#container')).css('color','green')
+
+- Each(callback) (uma espécie de laço)
+
+Exemplo:
+
+```jquery
+
+$(document).ready(function(){
+    $('a').click(function()){
+        $("p").each(function(cont){
+            alert(cont);
+                $(this).css('bakground','red');
+        });
+    });
+});
+```
+
+.length -> devolve o tamanho de uma div
+
+.eq(posição) -> seleciona o elemento pela posição. Vai de 0,1,2,3,4,5...
+
+#### Seletores
+
+- id
+
+- classe
+
+- elementos
+
+- multiplos
+
+- :first
+
+- :last
+
+- :not(seletor)
+
+- :even -> seleciona em numeros pares (0,2,4,...)
+
+- :odd_ (ímpares)
+
+- :contains -> contem determinado texto
+
+- :[atributo = "valor"]
+
 
