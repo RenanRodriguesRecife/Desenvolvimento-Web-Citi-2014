@@ -601,7 +601,32 @@ $(document).ready(function(){
 
 ### Eventos
 
-- change: é ativada quando o
+- change: é ativada quando o valor em um campo de formulário perde o foco em favor do outro valor. O uso mais recorrente desse evento é no select, o qual ocorre quando o usuário seleciona uma das opções.
 
+- click: é ativada quando o usuário clica em cima do elemento
+
+- dbclick: é ativada quando o usuário dá um click duplo em cima do elemento.
+
+- focus: é ativada quando o elemento recebe o foco
+
+- keydown: é ativada quando o usuário pressiona uma tecla qualquer do teclado
+
+- keyup: é ativada quando o usuário solta uma tecla qualquer do teclado que tenha sido pressionada 
+
+- keypress: é ativada quando o usuário realiza a sequência de apertar e soltar qualquer tecla do teclado
+
+- mouseover: é ativado quando o usuário passa o ponteiro do mouse por cima do elemento
+
+- mouseout: é ativado quando o usuário retira o ponteiro do mouse de cima do elemento
+
+- mousemove: é ativado quando o ponteiro do mouse muda de posição
+
+- scroll: é ativado quando o usuário aciona qualquer uma das barras de rolagem do elemento, caso exista barra de rolagem
+
+- select: é ativado quando o usuário seleciona todo ou parte do texto que contém no elemento
+
+- submit: é ativado quando o usuário submete ou envia os dados colhidos ou contidos no elemento. Muito usado para validação de formulários
+
+- toggle: é um evento diferenciado (evento de interação), pois nele podemos colocar mais de um script diferente para tratar o evento, esses scripts serão executados em clicks alternados.
 
 
