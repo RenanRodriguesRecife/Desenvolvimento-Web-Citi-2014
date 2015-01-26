@@ -585,4 +585,23 @@ $(document).ready(function(){
 
 - :[atributo = "valor"]
 
+### Manipulando DOM
+
+- seletorjQuery.attr({nome_atributo.valor}) (muda um atributo)
+
+- seletorjQuery.addClass(valor_classe)
+
+- seletorjQuery.remove(valor_classe)
+
+- seletorjQuery.toggle(valor_classe) (máquina de estado)
+
+- seletorjQuery.html(novo_conteúdo) (troca body html)
+
+- seletorjQuery.width(nova_largura)
+
+### Eventos
+
+- change: é ativada quando o
+
+
 
