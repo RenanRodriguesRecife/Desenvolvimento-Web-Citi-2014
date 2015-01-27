@@ -630,3 +630,20 @@ $(document).ready(function(){
 - toggle: é um evento diferenciado (evento de interação), pois nele podemos colocar mais de um script diferente para tratar o evento, esses scripts serão executados em clicks alternados.
 
 
+### Efeitos
+
+- show/hide - mostra e esconde
+
+- fadeIn/fadeOut - apaga de forma degradê
+
+### Bibliotecas
+
+Fancybox
+
+Carousel
+
+## Exercicio
+
+Fazer uma página com botões que mudam a altura e largura de alguma coisa
+
+<img src="teste.jpg">
