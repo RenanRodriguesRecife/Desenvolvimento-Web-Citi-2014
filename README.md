@@ -647,3 +647,26 @@ Carousel
 Fazer uma página com botões que mudam a altura e largura de alguma coisa
 
 <img src="teste.jpg">
+
+
+## Bootstrap
+
+### Instalando o Boostrap 
+
+- Você deve primerio baixar o Bootstrap
+
+- Depois você deve linkar as partas, css, fonts, js na pasta do arquivo html
+
+- Obs: O jQuery deve está instalado
+No site (Layoutlt!) vocÊ pode azer um site de forma mais rápida. usando coisas prémoldadas é só cadastrar.
+
+- No site getboostrap você pode pegar os códigos dos templates.
+Obs: Começe fazendo com o bootstrap depois implemente seu código para evitar erros
+
+## Hospedar uma página na web: Amazon (AWS) servidor EL2, (servidor) route 53 -> melhor administrador
+
+iframe facebook - facebook development
+
+Cobrar pelas horas de trabalho
+
+(site feito pelo monitor) Artedecrescerpe - www.artedecrescerpe.com
