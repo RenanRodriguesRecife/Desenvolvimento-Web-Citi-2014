@@ -162,8 +162,20 @@ POST -> Não passa os dados para URL. É mais lenta mas é mais segura
     <label for="campo-senha">senha</label>
     <input type="password" name="senha" id="campo-senha"/>
     <label for="campo-teste1">Teste 1</label>
-    <input type="radio" name="teste" id="campo-teste1">
+    <input type="radio" name="teste" id="campo-teste1" value="teste1"/>
+    <label for="campo-teste2">teste 2</label>
+    <input type="radio" name="teste" id="campo-teste2" value="teste2"/>
 
+    <br><br>
+
+    <label for="campo-check">Checkbox</label>
+    <input type="checkbox" nome="checando" id="campo-check" value="checando"/>
+    <label for="campo-texto">Area</label>
+    <textarea name="senha" id="campo-texto" rows="20" cols="30">qualquer coisa</textarea>
+
+    <br><br>
+
+    
 </fieldset>
 
 ```
